@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Right Logo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .form-container {
+            flex: 1;
+        }
+        .form-container input,
+        .form-container textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .logo-container {
+            flex: 1; 
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .logo-container img {
+            max-width: 50%; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="form-container">
+            <label>UserName<sup>*</sup></label>
+            <input type="text" placeholder="Enter username" autofocus>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter valid password">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter email">
+
+            <label>Gender</label>
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="male">Male
+
+            <label>DOB</label>
+            <input type="date">
+
+            <label>Feedback</label>
+            <textarea wrap="hard"></textarea>
+
+            <input type="button" value="Submit">
+        </div>
+
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Logo" height="300px" width="500px";>
+        </div>
+    </div>
+</body>
+</html>
