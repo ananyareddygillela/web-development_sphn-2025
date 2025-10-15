@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+</head>
+<body>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f6fa;
+      margin: 0;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #fff;
+      width: 320px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: left;
+    }
+
+    .card-content h3 {
+      color: #34495e;
+      margin-top: 0;
+    }
+
+    .card-content p {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  </style>
+    <div class="card">
+    <img src="assets\tom and jerry.jpg" 
+    width="80px"
+    height="100px"
+    alt="Image">
+<div class="card-content">
+    <h1>TOM AND JERRY</h1>
+    <p>Step into the playful world of Tom the clever cat and Jerry the smart little mouse!
+This cartoon book is filled with <mark>funny stories, colorful pictures, and exciting adventures </mark>that will make you laugh on every page.</p>
+    </div>
+</div>
+</body>
+</html>
