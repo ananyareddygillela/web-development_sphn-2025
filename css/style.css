@@ -1,0 +1,64 @@
+header{
+    height: 100px;
+    background-color: navy;
+    display: flex;
+}
+li{
+    color: white;
+    list-style-type: none;
+    padding-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial ', sans-serif;
+}
+ul{
+    padding: 45px  20%;
+    margin: 0px;
+    display: flex;
+}
+body{
+    margin: 0px;
+}
+.logo-ls{
+    padding-left: 50px;
+}
+.land-img{
+    position: absolute;
+}
+.land-title{
+    position:relative ;
+    color: white;
+    font-size: 42px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.disc{
+    width: 200px;
+    padding: 200px;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+}
+.card:hover{
+    width: 300px;
+    height: 450px;
+   border: 1px solid black;
+    margin-left: 30px;
+    cursor: pointer;
+    padding: 3px;
+}
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+.about::first-letter{
+    padding-left: 50px;
+}
+footer{
+    height:400px ;
+    background-color:black ;
+    margin-top: 200px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

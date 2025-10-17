@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popular Cartoon Books</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f6fa;
+      margin: 0;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #fff;
+      width: 320px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: left;
+    }
+
+    .card-content h3 {
+      color: #34495e;
+      margin-top: 0;
+    }
+
+    .card-content p {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Popular Cartoon Books</h1>
+
+  <div class="container">
+    <div class="card">
+      <img src="assets\tom and jerry.jpg" alt="Tom and Jerry">
+      <div class="card-content">
+        <h3>Tom and Jerry Adventures</h3>
+        <p>
+          Join Tom the cat and Jerry the mouse in their never-ending chase filled with humor and clever tricks.
+          This comic series delivers laughter and timeless fun for readers of all ages.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets\mickey.jpg" alt="Mickey Mouse">
+      <div class="card-content">
+        <h3>Mickey Mouse Classics</h3>
+        <p>
+          Follow Mickey and his friends on fun-filled adventures full of friendship and creativity.
+          These classic comics have entertained generations with their charm and humor.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets\doramon.jpg" alt="Doraemon">
+      <div class="card-content">
+        <h3>Doraemon Comics</h3>
+        <p>
+          Travel into the future with Doraemon, the robotic cat, as he helps Nobita with amazing gadgets.
+          A mix of fun, imagination, and moral lessons for kids and teens alike.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assess\chota bheem.jpg" alt="Chhota Bheem">
+      <div class="card-content">
+        <h3>Chhota Bheem Stories</h3>
+        <p>
+          Discover the world of Dholakpur where Chhota Bheem and his brave friends protect their land
+          with courage and wisdom in these adventurous tales.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
